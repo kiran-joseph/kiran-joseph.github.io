@@ -1,0 +1,45 @@
+baseURL = "https://kiran-joseph.github.io/"
+languageCode = "en-us"
+title = "Kiran Joseph"
+theme = "PaperMod"
+
+[params]
+    env = "production"
+    description = "AI Engineer | Builder | Curious"
+    author = "Kiran Joseph"
+    
+    # Enable the Profile Mode (Landing Page style)
+    [params.profileMode]
+        enabled = true
+        title = "Kiran Joseph"
+        subtitle = "AI Engineer | Builder | Curious."
+        displayFullDisp = true
+        readMoreButton = false
+        
+        [[params.profileMode.buttons]]
+            name = "Read the Blog"
+            url = "https://kiranjoseph.substack.com"
+
+    # Social Icons (Links to your platforms)
+    [[params.socialIcons]]
+        name = "linkedin"
+        url = "https://www.linkedin.com/in/kiran-joseph-061a45192/"
+    [[params.socialIcons]]
+        name = "github"
+        url = "https://github.com/kiran-joseph"
+    [[params.socialIcons]]
+        name = "substack"
+        url = "https://kiranjoseph.substack.com"
+    [[params.socialIcons]]
+        name = "devto"
+        url = "hhttps://dev.to/josephkiran"
+
+# Main Top Navigation Menu
+[[menu.main]]
+    name = "The AI Atlas"
+    url = "https://kiranjoseph.substack.com"
+    weight = 10
+[[menu.main]]
+    name = "Archive"
+    url = "archives"
+    weight = 20
